@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="icons8.png">
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Raj Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="About.html" target="_blank">About</a></li>
+            <li><a href="Project.html" target="_blank">Project</a></li>
+            <li><a href="ContactMe.html" target="_blank">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection" >
+            <p>Hi, My Name is</p>
+            <span class="purple">Raj Kumar Gautam</span>
+            <div style="width: max-content;">and I am a passionate</div>
+            <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="icon.png" alt="" srcset="" />
+        </div> 
+      </section> 
+      
+      
+      <div class="buttons">
+        <button class="btn"><a
+                href="https://drive.google.com/file/d/1NXHcKtjjTXfJeOZTD8zFTdIIqV6VnfuQ/view?usp=sharing" target="_blank">
+                Download CV</button></a>
+    </div>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Raj Kumar Gautam. All rights reserved.</p>
+      <div class="social-links">
+        <a href="mailto:rajkumargautam167@gmail.com?">Email</a>
+
+        <a href="https://github.com/rajkumargautam1" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/rajkumargautam1" target="_blank">LinkedIn</a>
+        <!-- Add more social links as needed -->
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Software Developer', 'Web Developer'],
+          typeSpeed: 50,
+          loop: true,
+        });
+      </script>
+  </body>
+</html>

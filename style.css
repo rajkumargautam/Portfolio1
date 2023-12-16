@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(0, 0, 33);
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+  font-size: 24px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a:hover{
+  color: rgb(153, 153, 222);
+  font-size: 1.4rem;
+}
+.left {
+  font-size: 1.5rem;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 140px 0;
+
+}
+.firstsection > div {
+  width: 30%;
+  /* background-color: red; */
+}
+
+.leftsection {
+  /* background-color: red; */
+  font-size: 3rem;
+  
+  margin: -30px 0;
+  margin-left: 93px;
+  margin-bottom: 24px;
+}
+.rightsection img {
+  /* background-color: red; */
+  width: 80%;
+  margin: -78px 46px
+}
+.purple{
+  color: blueviolet;
+  /* white-space: pre-line; */
+  margin: -3px;
+
+
+}
+ul a{
+  list-style: none;
+}
+
+#element{
+  color: lavender;
+}
+
+.secondsection{
+  max-width: 80vw;
+  height: auto;
+  margin: 80vh;
+}
+
+.secondsection h1{
+  font-size: 1.9rem;
+}
+
+.secondsection .box{
+  background-color: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+
+}
+
+.secondsection .vertical{
+  height: 93px;
+  width: 1px;
+
+}
+
+main hr{
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 40px 84px;
+}
+
+.text-gray{
+  color: gray;
+}
+
+  .buttons{
+  margin-top: -117px;
+  font-size: 16px;
+  margin-left: 253px;
+}
+
+.btn{
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background-color: white;
+font-weight: bold;
+font-size: 2em;
+margin: 3px 3 px;
+cursor: pointer;
+text-decoration: none;
+
+
+}
+.btn-sm{
+font-size: 17px;
+padding: 10px 19px;
+margin: 12px 0;
+}
+.btn:hover{
+background-color: white;
+color: dodgerblue;
+}
+
+footer {
+    background-color: #12123e;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.social-links {
+    margin-top: 10px;
+  }
+
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
